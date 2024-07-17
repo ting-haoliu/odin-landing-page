@@ -19,7 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 96px;
+    padding: 0 150px;
     min-height: 96px;
     background-color: #1F2937;
 }
@@ -35,7 +35,7 @@ header {
     color: #E5E7EB;
     font-size: 18px;
     list-style: none;
-    gap: 16px;
+    gap: 32px;
 }
 
 .header__link {
@@ -51,9 +51,9 @@ main {
     display: flex;
     justify-content: center;
 
-    padding: 72px 96px;
+    padding: 96px 150px;
     background-color: #1F2937;
-    gap: 48px;
+    gap: 60px;
 }
 
 .main1__title {
@@ -80,8 +80,8 @@ main {
 }
 
 #main1__img {
-    width: 700px;
-    height: 350px;
+    width: 1100px;
+    height: 270px;
 }
 
 .main2__container {
@@ -103,12 +103,12 @@ main {
 }
 
 .main2_info {
-    width: 180px;
+    width: 160px;
 }
 
 .main2_info-img {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
 
     border: 4px solid #3882F6;
     border-radius: 10px;
@@ -119,7 +119,7 @@ main {
 }
 
 .main3__container {
-    padding: 96px 221px;
+    padding: 96px 280px;
     background-color: #E5E7EB;
 }
 
@@ -140,7 +140,7 @@ main {
     display: flex;
     justify-content: space-around;
 
-    margin: 96px;
+    margin: 96px 150px;
     padding: 40px 48px;
 
     background-color: #3882F6;
@@ -155,10 +155,10 @@ main {
 }
 
 .main4__button {
-    padding: 8px 32px;
+    padding: 0 32px;
     background-color: #3882F6;
     color: #EFE7EB;
-    border: 2px solid #EFE7EB;
+    border: 1px solid #EFE7EB;
     border-radius: 5px;
     font-size: 18px;
     font-weight: bold;
