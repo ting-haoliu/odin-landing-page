@@ -80,8 +80,8 @@ main {
 }
 
 #main1__img {
-    width: 1100px;
-    height: 270px;
+    width: 500px;
+    height: auto;
 }
 
 .main2__container {
@@ -99,7 +99,7 @@ main {
 .main2_info-container {
     display: flex;
     justify-content: center;
-    gap: 48px;
+    gap: 52px;
 }
 
 .main2_info {
@@ -107,6 +107,7 @@ main {
 }
 
 .main2_info-img {
+    display: block;
     width: 160px;
     height: 160px;
 
