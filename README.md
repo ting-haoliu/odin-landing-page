@@ -15,7 +15,7 @@ This is a landing page project created as part of [The Odin Project](https://www
 - Fonts by Google Fonts (Roboto)
 
 ## Live Preview
-*(You can share your project by deploying it for free via GitHub Pages. Update this section with your live link once deployed!)*
+[Demo](https://ting-haoliu.github.io/odin-landing-page/)
 
 ## Acknowledgements
 Design and project specifications were provided by [The Odin Project](https://www.theodinproject.com/).
