@@ -1,74 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Odin-Landing Page</title>
+    <title>Odin Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <h1 class="header__logo">Header Logo</h1>
-        <nav class="navbar">
-            <ul class="header__list">
-                <li class="header__item"><a href="./index.html" class="header__link">header link one</a></li>
-                <li class="header__item"><a href="./index.html" class="header__link">header link two</a></li>
-                <li class="header__item"><a href="./index.html" class="header__link">header link three</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="header-hero-wrapper">
+        <header class="header">
+            <div class="logo">Header Logo</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">This website is awesome</h1>
+                <p class="hero-subtitle">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button class="btn btn-primary">Sign up</button>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">this is a placeholder for an image</div>
+            </div>
+        </section>
+    </div>
 
-    <main>
-        <div class="main1__container">
-            <div class="main1__content">
-                <h2 class="main1__title">This website is awesome</h2>
-                <p class="main1__text">This website has some subtext that goes here under the main title. It's a
-                    smaller font and the color is lower contrast</p>
-                <button class="main1__button">Sign up</button>
+    <section class="information">
+        <h2 class="info-title">Some random information.</h2>
+        <div class="info-container">
+            <div class="info-item">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
             </div>
-            <img id="main1__img" src="images/sea.jpg" alt="this is a placeholder for an image">
-        </div>
-        <div class="main2__container">
-            <h2 class="main2__title">Some random information.</h2>
-            <div class="main2_info-container">
-                <div class="main2_info">
-                    <img class="main2_info-img" src="" alt="This is image1" width="160px" height="160px">
-                    <p class="main2_info-text">this is some subtext under an illustration or image</p>
-                </div>
-                <div class="main2_info">
-                    <img class="main2_info-img" src="" alt="This is image2" width="160px" height="160px">
-                    <p class="main2_info-text">this is some subtext under an illustration or image</p>
-                </div>
-                <div class="main2_info">
-                    <img class="main2_info-img" src="" alt="This is image3" width="160px" height="160px">
-                    <p class="main2_info-text">this is some subtext under an illustration or image</p>
-                </div>
-                <div class="main2_info">
-                    <img class="main2_info-img" src="" alt="This is image4" width="160px" height="160px">
-                    <p class="main2_info-text">this is some subtext under an illustration or image</p>
-                </div>
+            <div class="info-item">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="info-item">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div class="info-item">
+                <div class="box"></div>
+                <p>this is some subtext under an illustration or image</p>
             </div>
         </div>
-        <div class="main3__container">
-            <p class="main3__text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling
-                up space, or maybe
-                people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <p id="main3__author">-Thor, God of Thunder</p>
-        </div>
-        <div class="main4__container">
-            <div class="main4__text-container">
-                <p class="main4__text-alert">Call to action! It's time!</p>
-                <p>Sign up for our product by clicking that button right over there!</p>
-            </div>
-            <button class="main4__button">Sign up</button>
-        </div>
-    </main>
+    </section>
 
-    <footer>
+    <section class="quote-section">
+        <div class="quote-container">
+            <p class="quote-text">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <p class="quote-author">-Thor, God of Thunder</p>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-container">
+            <div class="cta-text">
+                <h3 class="cta-title">Call to action! It's time!</h3>
+                <p class="cta-subtitle">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div class="cta-button-container">
+                <button class="btn btn-outline">Sign up</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
         <p>Copyright © The Odin Project 2021</p>
     </footer>
 </body>
-
 </html>
